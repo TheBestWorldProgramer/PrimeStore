@@ -1,0 +1,26 @@
+﻿<Window x:Class="PrimeStoreClient.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrimeStoreClient"
+        mc:Ignorable="d"
+        Title="Login" Height="300" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="component/Images/Background2.jpg"/>
+        </Grid.Background>
+        <Label x:Name="LoginLabel" Content="Login" HorizontalAlignment="Left" Margin="42,85,0,0" VerticalAlignment="Top" FontFamily="Agency FB" FontSize="16" Foreground="LightGray" Height="27" Width="36"/>
+        <Label x:Name="PasswordLabel" Content="Password" HorizontalAlignment="Left" Margin="42,117,0,0" VerticalAlignment="Top" FontFamily="Agency FB" FontSize="16" Foreground="LightGray" FontWeight="Bold" Height="27" Width="64"/>
+        <TextBox x:Name="LoginTextBox" HorizontalAlignment="Left" Height="23" Margin="123,89,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="PasswordTextBox" HorizontalAlignment="Left" Height="23" Margin="123,118,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button HorizontalAlignment="Left" Margin="168,169,0,0" VerticalAlignment="Top" Width="75" Height="24">
+            <Button x:Name="SignInButton" Content="Sign in" Width="75" Foreground="Gray"/>
+        </Button>
+
+    </Grid>
+</Window>
