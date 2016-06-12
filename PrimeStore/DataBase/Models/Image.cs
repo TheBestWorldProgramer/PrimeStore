@@ -10,7 +10,6 @@ namespace DataBase.Models
     {
         private Product product;
         private string path;
-
         public virtual Product Product
         {
             get
