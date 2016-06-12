@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeStore", "PrimeStore\PrimeStore.csproj", "{B3A2C8E6-EC28-463E-AA67-4FBB68588B99}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBase", "DataBase\DataBase.csproj", "{DF892102-749D-4001-9C7B-352E5DDE45AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeStoreClient", "PrimeStoreClient\PrimeStoreClient.csproj", "{E0E23760-908C-4491-AAE6-A63FFE0024F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "Tools\Tools.csproj", "{E4B0B593-5836-438A-B356-1F9A2AF83124}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E0E23760-908C-4491-AAE6-A63FFE0024F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0E23760-908C-4491-AAE6-A63FFE0024F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0E23760-908C-4491-AAE6-A63FFE0024F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4B0B593-5836-438A-B356-1F9A2AF83124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4B0B593-5836-438A-B356-1F9A2AF83124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4B0B593-5836-438A-B356-1F9A2AF83124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4B0B593-5836-438A-B356-1F9A2AF83124}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
