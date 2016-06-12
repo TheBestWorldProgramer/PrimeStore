@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeStore", "PrimeStore\Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBase", "DataBase\DataBase.csproj", "{DF892102-749D-4001-9C7B-352E5DDE45AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeStoreClient", "PrimeStoreClient\PrimeStoreClient.csproj", "{E0E23760-908C-4491-AAE6-A63FFE0024F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DF892102-749D-4001-9C7B-352E5DDE45AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF892102-749D-4001-9C7B-352E5DDE45AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF892102-749D-4001-9C7B-352E5DDE45AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E23760-908C-4491-AAE6-A63FFE0024F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E23760-908C-4491-AAE6-A63FFE0024F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E23760-908C-4491-AAE6-A63FFE0024F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E23760-908C-4491-AAE6-A63FFE0024F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
