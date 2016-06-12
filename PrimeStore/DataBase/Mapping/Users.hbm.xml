@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+<hibernate-mapping xmlns="urn:nhibernate-configuration-2.2" namespace="DataBase.Models" assembly="DataBase">
+
+  <class name="DataBase.Models.User" table="User">
+    <id name="UserId" column="UserId" type="Int32">
+      <generator class="native"/>
+    </id>
+
+    <property name="Login" column="Login" type="System.String" length="50" not-null="false"/>
+    <property name="FirstName" column="FirstName" type="System.String" length="50" not-null="false"/>
+    <property name="LastName" column="LastName" type="System.String" length="50" not-null="false"/>
+    <property name="Email" column="Email" type="System.String" length="50" not-null="false"/>
+  
+    <many-to-one name="Role" class="Role" column="RoleId" lazy="false"/>
+
+      <bag name="Products" table="Product" cascade="all-delete-orphan" inverse="true" lazy="false">
+        <key column="ProductId"/>
+        <one-to-many class="DataBase.Models.Product"/>
+      </bag>
+  </class>
+</hibernate-mapping>
