@@ -1,0 +1,5 @@
+D:\WCFWPFnHibernateProject\trunk\PrimeStore\Tools\bin\Debug\Tools.dll
+D:\WCFWPFnHibernateProject\trunk\PrimeStore\Tools\bin\Debug\Tools.pdb
+D:\WCFWPFnHibernateProject\trunk\PrimeStore\Tools\obj\Debug\Tools.csprojResolveAssemblyReference.cache
+D:\WCFWPFnHibernateProject\trunk\PrimeStore\Tools\obj\Debug\Tools.dll
+D:\WCFWPFnHibernateProject\trunk\PrimeStore\Tools\obj\Debug\Tools.pdb
