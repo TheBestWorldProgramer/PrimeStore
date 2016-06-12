@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PrimeStoreClient"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="PrimeStore" Height="350" Width="525">
     <Grid>
-        
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="517">
+            <MenuItem Header="ALL" Height="26"/>
+            <MenuItem Header="NEW" />
+            <MenuItem Header="POPULAR"/>
+            <MenuItem Header="DISCOUNT"/>
+            <MenuItem Header="PROFILE" />
+            <MenuItem Header="LIBEARY"/>
+            <Label x:Name="Login" Content="Log in"/>
+        </Menu>
+
     </Grid>
 </Window>
