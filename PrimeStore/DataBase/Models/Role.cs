@@ -8,7 +8,26 @@ namespace DataBase.Models
 {
     class Role
     {
-        public virtual int RoleId { get; set; }
-        public virtual string Name { get; set; }
+        private int roleId;
+        private string name;
+
+        public virtual int RoleId
+        {
+            get
+            {
+                return roleId;
+            }
+        }
+        public virtual string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = value;
+            }
+        }
     }
 }

@@ -8,7 +8,24 @@ namespace DataBase.Models
 {
     class ProductCategory
     {
-        public virtual Category category { get; set; }
-        public virtual Product product { get; set; }
+        private Category category;
+        private Product product;
+
+        public virtual Category Category
+        {
+            get
+            {
+                return category;
+            }
+        }
+
+        public virtual Product Product
+        {
+            get
+            {
+                return product;
+            }
+
+        }
     }
 }

@@ -8,11 +8,75 @@ namespace DataBase.Models
 {
     class Product
     {
-        public virtual int ProductId { get; set; }
-        public virtual Discount discount { get; set; }
-        public virtual string Name { get; set; }
-        public virtual decimal Price { get; set; }
-        public virtual string Detail { get; set; }
-        public virtual string Path { get; set; }
+        private int productId;
+        private Discount discount;
+        private string name;
+        private decimal price;
+        private string detail;
+        private string path;
+
+        public virtual Discount Discount
+        {
+            get
+            {
+                return discount;
+            }
+            set
+            {
+                discount = value;
+            }
+        }
+        public virtual int ProductId
+        {
+            get
+            {
+                return productId;
+            }
+        }
+        public virtual string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = value;
+            }
+        }
+        public virtual decimal Price
+        {
+            get
+            {
+                return price;
+            }
+            set
+            {
+                price = value;
+            }
+        }
+        public virtual string Detail
+        {
+            get
+            {
+                return detail;
+            }
+            set
+            {
+                detail = value;
+            }
+        }
+        public virtual string Path
+        {
+            get
+            {
+                return path;
+            }
+            set
+            {
+                path = value;
+            }
+        }
+
     }
 }

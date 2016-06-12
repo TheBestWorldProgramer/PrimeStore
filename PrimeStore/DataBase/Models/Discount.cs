@@ -8,7 +8,27 @@ namespace DataBase.Models
 {
     class Discount
     {
-        public virtual int DiscountId { get; set; }
-        public virtual float Procent { get; set; }
+        private int discountId;
+        private float procent;
+
+        public virtual int DiscountId
+        {
+            get
+            {
+                return discountId;
+            }
+        }
+
+        public virtual float Procent
+        {
+            get
+            {
+                return procent;
+            }
+            set
+            {
+                procent = value;
+            }
+        }
     }
 }

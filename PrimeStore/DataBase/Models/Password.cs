@@ -8,8 +8,34 @@ namespace DataBase.Models
 {
     class Password
     {
-        public virtual int PasswordId { get; set; }
-        public virtual string Pas_word { get; set; }
-        public virtual User user { get; set; }
+        private int passwordId;
+        private string pas_word;
+        private User user;
+
+        public virtual User User
+        {
+            get
+            {
+                return user;
+            }
+        }
+        public virtual int PasswordId
+        {
+            get
+            {
+                return passwordId;
+            }
+        }
+        public virtual string Pas_word
+        {
+            get
+            {
+                return pas_word;
+            }
+            set
+            {
+                pas_word = value;
+            }
+        }
     }
 }

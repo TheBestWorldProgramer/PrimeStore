@@ -8,8 +8,30 @@ namespace DataBase.Models
 {
     class Order
     {
-        public virtual int OrderId { get; set; }
-        public virtual User user { get; set; }
-        public virtual Product product { get; set; }
+        private int orderId;
+        private User user;
+        private Product product;
+
+        public virtual User User
+        {
+            get
+            {
+                return user;
+            }
+        }
+        public virtual Product Product
+        {
+            get
+            {
+                return product;
+            }
+        }
+        public virtual int OrderId
+        {
+            get
+            {
+                return orderId;
+            }
+        }
     }
 }

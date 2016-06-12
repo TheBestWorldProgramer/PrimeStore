@@ -8,7 +8,26 @@ namespace DataBase.Models
 {
     class Image
     {
-        public virtual Product product { get; set; }
-        public virtual string Path { get; set; }
+        private Product product;
+        private string path;
+
+        public virtual Product Product
+        {
+            get
+            {
+                return product;
+            }
+        }
+        public virtual string Path
+        {
+            get
+            {
+                return path;
+            }
+            set
+            {
+                path = value;
+            }
+        }
     }
 }

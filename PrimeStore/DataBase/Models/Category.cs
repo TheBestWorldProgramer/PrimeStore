@@ -8,7 +8,28 @@ namespace DataBase.Models
 {
     class Category
     {
-        public virtual int CategoryId { get; set; }
-        public virtual string Name { get; set; }
+        private int categoryId;
+        private string name;
+
+        public virtual int CategoryId
+        {
+            get
+            {
+                return categoryId;
+            }
+        }
+        public virtual string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = value;
+            }
+        }
+
+
     }
 }

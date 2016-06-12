@@ -8,7 +8,23 @@ namespace DataBase.Models
 {
     class UsersRole
     {
-        public virtual User user { get; set; }
-        public virtual Role role { get; set; }
+        private User user;
+        private Role role;
+
+        public virtual User User
+        {
+            get
+            {
+                return user;
+            }
+        }
+
+        public virtual Role Role
+        {
+            get
+            {
+                return role;
+            }
+        }
     }
 }

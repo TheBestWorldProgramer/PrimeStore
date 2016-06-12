@@ -91,7 +91,7 @@ namespace DataBase.Models
         {
             get
             {
-                return products?? new List<Product>();
+                return products??  new List<Product>();
             }
         }
     }
