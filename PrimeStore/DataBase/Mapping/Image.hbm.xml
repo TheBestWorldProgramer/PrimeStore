@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-configuration-2.2" namespace="DataBase.Models" assembly="DataBase">
+
+  <class name="DataBase.Models.Image" table="Image">
+
+    <property name="Path" column="Path" type="System.String" length="50" not-null="false"/>
+
+    <many-to-one name="Product" class="Product" column="ProductId" cascade = "save-update" lazy="false"/>
+
+  </class>
+</hibernate-mapping>

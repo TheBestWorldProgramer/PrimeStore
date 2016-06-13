@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-configuration-2.2" namespace="DataBase.Models" assembly="DataBase">
+
+  <class name="DataBase.Models.UsersRole" table="UsersRole">
+    
+    <many-to-one name="User" class="User" column="UserId" cascade = "save-update" lazy="false"/>
+    <many-to-one name="Role" class="Role" column="RoleId" cascade = "save-update" lazy="false"/>
+
+  </class>
+</hibernate-mapping>

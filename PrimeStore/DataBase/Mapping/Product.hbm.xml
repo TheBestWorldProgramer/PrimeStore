@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-configuration-2.2" namespace="DataBase.Models" assembly="DataBase">
+
+  <class name="DataBase.Models.Product" table="Product">
+    <id name="ProductId" column="ProductId" type="Int32">
+      <generator class="native"/>
+    </id>
+
+    <property name="Name" column="Name" type="System.String" length="50" not-null="false"/>
+    <property name="Price" column="Price" type="System.Decimal" length="50" not-null="false"/>
+    <property name="Detail" column="Detail" type="System.String" length="50" not-null="false"/>
+    <property name="Path" column="Path" type="System.String" length="50" not-null="false"/>
+
+    <many-to-one name="Discount" class="Discount" column="DiscountId" cascade = "save-update" lazy="false"/>
+
+  </class>
+</hibernate-mapping>

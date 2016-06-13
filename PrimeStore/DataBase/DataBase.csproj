@@ -83,11 +83,23 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>StoreDataBase.mdf</DependentUpon>
     </Content>
+    <Content Include="Mapping\Category.hbm.xml" />
+    <Content Include="Mapping\Discount.hbm.xml" />
+    <Content Include="Mapping\Image.hbm.xml" />
+    <Content Include="Mapping\Order.hbm.xml" />
+    <Content Include="Mapping\Password.hbm.xml" />
+    <Content Include="Mapping\PersonalData.hbm.xml" />
+    <Content Include="Mapping\Product.hbm.xml" />
+    <Content Include="Mapping\ProductCategory.hbm.xml" />
+    <Content Include="Mapping\Role.hbm.xml" />
+    <Content Include="Mapping\UsersRole.hbm.xml" />
     <EmbeddedResource Include="Mapping\Users.hbm.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="hibernate.cfg.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

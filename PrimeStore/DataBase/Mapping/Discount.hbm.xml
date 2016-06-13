@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-configuration-2.2" namespace="DataBase.Models" assembly="DataBase">
+
+  <class name="DataBase.Models.Discount" table="Discount">
+    <id name="DiscountId" column="DiscountId" type="Int32">
+      <generator class="native"/>
+    </id>
+
+    <property name="Procent" column="Procent" type="System.Single" not-null="false"/>
+
+  </class>
+</hibernate-mapping>

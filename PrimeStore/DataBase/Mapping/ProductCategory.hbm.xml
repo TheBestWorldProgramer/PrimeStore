@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-configuration-2.2" namespace="DataBase.Models" assembly="DataBase">
+
+  <class name="DataBase.Models.ProductCategory" table="ProductCategory">
+    
+    <many-to-one name="Category" class="Category" column="CategoryId" cascade = "save-update" lazy="false"/>
+    <many-to-one name="Product" class="Product" column="ProductId" cascade = "save-update" lazy="false"/>
+
+  </class>
+</hibernate-mapping>

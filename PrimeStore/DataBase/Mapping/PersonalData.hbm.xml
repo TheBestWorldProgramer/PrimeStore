@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-configuration-2.2" namespace="DataBase.Models" assembly="DataBase">
+
+  <class name="DataBase.Models.PersonalData" table="PersonalData">
+
+    <property name="PhoneNumber" column="PhoneNumber" type="System.String" length="50" not-null="false"/>
+    <property name="City" column="City" type="System.String" length="50" not-null="false"/>
+    <property name="Country" column="Country" type="System.String" length="50" not-null="false"/>
+    <property name="ZipCode" column="ZipCode" type="System.Int32" not-null="false"/>
+    <property name="Street" column="Street" type="System.String" length="50" not-null="false"/>
+
+    <many-to-one name="User" class="User" column="UserId" cascade = "save-update" lazy="false"/>
+
+  </class>
+</hibernate-mapping>

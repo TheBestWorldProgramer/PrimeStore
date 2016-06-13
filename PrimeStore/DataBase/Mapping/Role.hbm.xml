@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-configuration-2.2" namespace="DataBase.Models" assembly="DataBase">
+
+  <class name="DataBase.Models.Role" table="Role">
+    <id name="RoleId" column="RoleId" type="Int32">
+      <generator class="native"/>
+    </id>
+
+    <property name="Name" column="Name" type="System.String" length="50" not-null="false"/>
+
+  </class>
+</hibernate-mapping>
