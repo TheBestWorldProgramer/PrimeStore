@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\WCFWPFnHibernateProject\trunk\PrimeStore\PrimeStoreClient\App.xaml
-11151548125
+3384554857
 
-9-818449163
+11490642926
 141377465948
-MainWindow.xaml;
+Login.xaml;MainWindow.xaml;Registration.xaml;
 
-False
+True
 
